@@ -108,7 +108,7 @@ roomHelper.isRoomFull = function(roomId, callback) { // callback(err,isFull)
 				count++;
 			}
 		}
-		if (count<2) {
+		if (count < 2) {
 			return callback(null, false);
 		} else {
 			return callback(null, true);
